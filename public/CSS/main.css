@@ -1,0 +1,47 @@
+:root{
+    --tiitle-color: #322153;
+    --primary-color: #34cb79;
+    --color-fundo : #e0e0d5;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: var(--color-fundo);
+    /*  */
+    -webkit-font-smoothing: antialiased; /* Deixar a font melhor de se ver */
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--tiitle-color);
+}
+
+/* BOX MODEL 
+
+Modelo de caixa
+toda caixa tem
+largura, altura
+espaçamentos, preenchimentos, alinhamentos, posicionamentos
+bordas, cor/fundo, maneira que é vista pelo HMTL(display) 
+*/
+
+
+
+
+
+
+
+
